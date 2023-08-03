@@ -107,6 +107,7 @@ for(let i = 0; i < contador; i++){
 
     pessoas.push(pessoa);
 }
+
 console.log(pessoas)
 
 console.log("Pessoas com salário abaixo de 2500:");
