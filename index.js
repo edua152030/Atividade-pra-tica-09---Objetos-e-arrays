@@ -91,7 +91,7 @@ Nome: Alessandro, Idade: 28, Salário: 2400
 Pessoas empregadas com salários maiores que 2500:
 Nome: Alessandro, Idade: 28, Salário: 2700
 Nome: Alessandro, Idade: 28, Salário: 3000
- 
+ */
 
 let contador = Number(prompt('digite quantas pessoas fazem a pesquisa'))
 const pessoas = []
@@ -110,18 +110,17 @@ for(let i = 0; i < contador; i++){
 console.log(pessoas)
 
 console.log("Pessoas com salário abaixo de 2500:");
-for (const pessoa of pessoas) {
-    if (pessoa.trabalhando === 'sim' && pessoa.salario < 2500) {
-        console.log(pessoa);
+for (const pessoa1 of pessoas) {
+    if (pessoa1.trabalhando === 'sim' && pessoa1.salario < 2500) {
+        console.log(pessoa1);
     }
 }
 
 console.log("Pessoas com salário acima de 2500:");
-for (const pessoa of pessoas) {
-    if (pessoa.trabalhando === 'sim' && pessoa.salario > 2500) {
-        console.log(pessoa);
+for (const pessoa2 of pessoas) {
+    if (pessoa2.trabalhando === 'sim' && pessoa2.salario > 2500) {
+        console.log(pessoa2);
     }
 }
 
 
-*/
